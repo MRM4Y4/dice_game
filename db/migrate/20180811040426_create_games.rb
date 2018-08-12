@@ -1,4 +1,4 @@
-class CreateGames < ActiveRecord::Migration[5.2]
+class CreateGames < ActiveRecord::Migration[2.5]
   def change
     create_table :games do |t|
       t.integer :chips
